@@ -17,10 +17,5 @@ class Waiter
   def new_meal(customer, total, tip=0)
     Meal.new(self, customer, total, tip)
   end
-  
- sam = Customer.new("Sam, 27")
- pat = Waiter.new("Pat", 2)
- alex = Waiter.new(Alex", 5)
- 
  
 end
