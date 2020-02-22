@@ -29,6 +29,8 @@ class Waiter
    meal_a.tip <=> meal_b.tip
   end
   
-  
+  best-tipped_meal.customer
+end
+
  
 end
